@@ -275,7 +275,7 @@ where
     }
     match app.mode {
         Mode::Normal => text.push_str("i - edit mode; q - exit\n"),
-        Mode::Editing => text.push_str("esc - normal mode; enter - fetch feed\n"),
+        Mode::Editing => text.push_str("esc - normal mode; enter - fetch feed; del - delete selected feed\n"),
     }
 
     text.push_str("? - show/hide help");
